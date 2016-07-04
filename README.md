@@ -1,7 +1,7 @@
 Intro
 -----
 
-This repository provides the codes for the CVPR16 paper, “Deep Region and Multi-Label Learning for Facial Action Unit Detection".
+This repository provides the codes for the CVPR16 paper, “[Deep Region and Multi-Label Learning for Facial Action Unit Detection](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Zhao_Deep_Region_and_CVPR_2016_paper.pdf)".
 This implementation is based on [Caffe Toolbox](https://github.com/BVLC/caffe). 
 This README file is to be updated.
 
