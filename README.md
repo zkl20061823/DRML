@@ -11,11 +11,11 @@ Code structure
 
 Based on the caffe toolbox, we organize the source files as follows:
 
-`include/caffe/`: Header files that contains the declaration of our implemented layers
+- `include/caffe/`: Header files that contains the declaration of our implemented layers
 
-`prototxt/`: Network architecture we used to compuare and report in our paper
+- `prototxt/`: Network architecture we used to compuare and report in our paper
 
-`src/caffe/layers/`: Source files of our implemented layers
+- `src/caffe/layers/`: Source files of our implemented layers
 
 
 More info
