@@ -6,7 +6,7 @@ This code aims for training a convolutional network that contains a *region laye
 This implementation is based on [Caffe Toolbox](https://github.com/BVLC/caffe). 
 
 
-Code structure
+File structure
 --------------
 
 Based on the caffe toolbox, we organize the source files as follows:
@@ -17,6 +17,15 @@ Based on the caffe toolbox, we organize the source files as follows:
 
 - `src/caffe/layers/`: Source files of our implemented layers
 
+    - `box_layer.*`: Slice a 160x160 response map into an 8x8 uniform grid.
+    
+    - `image_data_layer_multilabel.cpp`: Load multiple labels for one image.
+    
+    - `multi_sigmoid_cross_entropy_loss_layer.*`: Multi-label loss.
+    
+    - `splice.*`: Concatenate 20 8x8 uniform grids to a 160x160 feature map.
+    
+    
 
 More info
 ---------
